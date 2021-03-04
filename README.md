@@ -28,7 +28,7 @@ Download or clone this repository.
 
 [Install Tensorflow](https://www.tensorflow.org/install/pip) (tested using Version 2.2) to the virtual environment to be used.
 
-Install the other packages in the [requirements](requirements.txt) to the virtual environment to be used (tested using given versions):
+Install the other packages in the [requirements](DiceFinding/requirements.txt) to the virtual environment to be used (tested using given versions):
 
 |package |numpy |matplotlib |pycpd |pyrender |trimesh |opencv_python_headless |
 |--|--|--|--|--|--|--|
@@ -86,7 +86,7 @@ Tyler Dodds ([@GitHub TylerDodds](https://github.com/TylerDodds))
 
 The [TensorFlow Object Detection API](https://github.com/tensorflow/models/blob/master/research/object_detection/README.md) is reproduced here in `object_detection`; it is modified by the Dice Finding authors to enable prediction of dice y rotation values.
 
-An implementation of a Halton Sequence by [Pamphile Tupui ROY](https://gist.github.com/tupui/cea0a91cc127ea3890ac0f002f887bae) is used in `dice_finding/MathUtil.py`, as is an implementation of orthogonalization by [Anmol Kabra](https://gist.github.com/tupui/cea0a91cc127ea3890ac0f002f887bae) in `dice_finding/GramSchmidt.py`.
+An implementation of a Halton Sequence by [Pamphile Tupui ROY](https://gist.github.com/tupui/cea0a91cc127ea3890ac0f002f887bae) is used in `dice_finding/MathUtil.py`, as is an implementation of orthogonalization by [Anmol Kabra](https://gist.github.com/anmolkabra/b95b8e7fb7a6ff12ba5d120b6d9d1937) in `dice_finding/GramSchmidt.py`.
 
 ## License
 
