@@ -1,0 +1,11 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+__pycache__/
+*.py[cod]
+
+*.suo
+/ScikitClassifierTest_1/Data/spambase.csv
+/TensorFlow/DiceFinding/__pycache__
+/TensorFlow/DiceFinding/object_detection/.vs
