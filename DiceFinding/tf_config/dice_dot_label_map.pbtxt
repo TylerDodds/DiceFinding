@@ -1,0 +1,28 @@
+item {
+  id: 1
+  name: 'dot'
+}
+item {
+  id: 2
+  name: 'dice_1'
+}
+item {
+  id: 3
+  name: 'dice_2'
+}
+item {
+  id: 4
+  name: 'dice_3'
+}
+item {
+  id: 5
+  name: 'dice_4'
+}
+item {
+  id: 6
+  name: 'dice_5'
+}
+item {
+  id: 7
+  name: 'dice_6'
+}
